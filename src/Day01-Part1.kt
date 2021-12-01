@@ -16,5 +16,5 @@ fun main() {
         numberOfTimesIncreased += 1
 
     }
-    println("the end" + numberOfTimesIncreased)
+    println("the end $numberOfTimesIncreased")
 }

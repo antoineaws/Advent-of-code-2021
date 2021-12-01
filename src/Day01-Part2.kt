@@ -25,7 +25,7 @@ fun main() {
             activeArray.removeAt(0)
         }
     }
-    println("measurements array: " + measurementsArray)
+    println("measurements array: $measurementsArray")
 
     var previousMeasurement = -1
     for (item in measurementsArray) {
@@ -41,5 +41,5 @@ fun main() {
         previousMeasurement = item
         numberOfTimesIncreased += 1
     }
-    println("the end" + numberOfTimesIncreased)
+    println("the end $numberOfTimesIncreased")
 }
